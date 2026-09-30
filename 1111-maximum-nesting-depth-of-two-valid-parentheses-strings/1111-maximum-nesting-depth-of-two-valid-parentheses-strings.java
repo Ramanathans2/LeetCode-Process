@@ -4,7 +4,7 @@ class Solution {
         int d = 0;
         int length = seq.length();
         int[] ans = new int[length];
-        for (int i = 1; i < length; i++) {
+        for (int i = 0; i < length; i++) {
             if (seq.charAt(i) == '(') {
                 ++d;
                 ans[i] = d % 2;
